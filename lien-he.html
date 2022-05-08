@@ -89,13 +89,68 @@
             </div>
 
             <div class="main__body">
-                <div class="main__body--content">
-                    <div class="main__body--form">
+                <div class="main__body--content row">
+                    <div class="main__body--form col">
                         <h2>Gửi yêu cầu</h2>
-
+                        <form method="post" autocomplete="off" id="formRequest">
+                            <div class="main__form--contact row">
+                                <div class="form__contact--input col col">
+                                    <label for="FullName">Tên của bạn</label>
+                                    <input type="text" class="form__input" id="FullName" placeholder="Điền họ tên của bạn">
+                                </div>
+                                <div class="form__contact--input col">
+                                    <label for="Email">Email</label>
+                                    <input type="text" class="form__input" id="Email" placeholder="Điền email của bạn">
+                                </div>
+                                <div class="form__contact--input col">
+                                    <label for="PhoneNumber">Số điện thoại</label>
+                                    <input type="text" class="form__input" id="PhoneNumber" placeholder="Số điện thoại của bạn">
+                                </div>
+                                <div class="form__contact--input col">
+                                    <label for="Company">Bộ phận/Công ty</label>
+                                    <input type="text" class="form__input" id="Company" placeholder="Bộ phận hay công ty bạn đang làm">
+                                </div>
+                                <div class="form__contact--input text__area col">
+                                    <label for="Content">Yêu cầu</label>
+                                    <textarea rows="3" class="form__content" name="Content"></textarea>
+                                </div>
+                                <div class="form__contact--follow col">
+                                    <input type="checkbox" id="contact-follow" hidden>
+                                    <label for="contact-follow">Theo dõi những điều mới nhất từ ASD</label>
+                                </div>
+                            </div>
+                            <div class="form__contact--submit">
+                                <button type="submit">Gửi yêu cầu</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="main__body--info">
+                    <div class="main__body--info col">
+                        <h2>Thông tin văn phòng</h2>
+                        <ul class="form__info--list">
+                            <li class="form__info--item">
+                                <span><img src="./Assets/img/icon-phone.png" alt="Icon"></span>
+                                <a href="#" class="form__item--icon">(84 4) 3974 9312(# 62607)</a>
+                            </li>
+                            <li class="form__info--item">
+                                <span><img src="./Assets/img/icon-email.png" alt="Icon"></span>
+                                <a href="mailto:asd_support@admicro.vn" class="form__item--icon">asd_support@admicro.vn</a>
+                            </li>
+                            <li class="form__info--item">
+                                <span class="icon_location"><img src="./Assets/img/location.png" alt="Icon"></span>
+                                <a href="https://goo.gl/maps/m8hpXGArWW2WZvrJA" class="form__item--icon">Tầng 20, Center Building, Hapulico Complex, Số 1, đường Nguyễn Huy Tưởng, quận Thanh Xuân, Hà Nội</a>
+                            </li>
+                        </ul>
+                    </div>
 
+                    <div class="main__member col">
+                        <div class="main__member--content">
+                            <h2>Chuyên viên hỗ trợ</h2>
+                            <div class="main__member--list row">
+                                <div class="main__member--item col">
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
